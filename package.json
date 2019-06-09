@@ -1,0 +1,20 @@
+{
+  "name": "tyrate-landing",
+  "version": "0.1.0",
+  "author": "George M Kroid <kroid@yandex.ru>",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "rm -rf ./dist && webpack && webpack-dev-server"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "file-loader": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.3",
+    "webpack-dev-server": "^3.7.1"
+  }
+}
